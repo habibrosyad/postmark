@@ -2,16 +2,16 @@
 > Fork from [Keighl's Postmark](https://github.com/keighl/postmark) (A Golang package for the using Postmark API)
 
 [![Go](https://img.shields.io/github/go-mod/go-version/mrz1836/postmark)](https://golang.org/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/mrz1836/postmark/run-tests.yml?branch=master&logo=github&v=3)](https://github.com/mrz1836/postmark/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mrz1836/postmark)](https://goreportcard.com/report/github.com/mrz1836/postmark)
-[![Release](https://img.shields.io/github/release-pre/mrz1836/postmark.svg?style=flat&v=1)](https://github.com/mrz1836/postmark/releases)
-[![GoDoc](https://godoc.org/github.com/mrz1836/postmark?status.svg)](https://pkg.go.dev/github.com/mrz1836/postmark)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/mrz1836/postmark/run-tests.yml?branch=master&logo=github&v=3)](https://github.com/habibrosyad/postmark/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/habibrosyad/postmark)](https://goreportcard.com/report/github.com/habibrosyad/postmark)
+[![Release](https://img.shields.io/github/release-pre/mrz1836/postmark.svg?style=flat&v=1)](https://github.com/habibrosyad/postmark/releases)
+[![GoDoc](https://godoc.org/github.com/habibrosyad/postmark?status.svg)](https://pkg.go.dev/github.com/habibrosyad/postmark)
 
 <br/>
 
 ### Installation
 ```shell script
-go get -u github.com/mrz1836/postmark
+go get -u github.com/habibrosyad/postmark
 ```
 
 <br/>
@@ -25,7 +25,7 @@ package main
 import (
 	"context"
 
-	"github.com/mrz1836/postmark"
+	"github.com/habibrosyad/postmark"
 )
 
 func main() {
@@ -53,7 +53,7 @@ Swap out HTTPClient for use on Google App Engine:
 package main
 
 import (
-    "github.com/mrz1836/postmark"
+    "github.com/habibrosyad/postmark"
     "google.golang.org/appengine"
     "google.golang.org/appengine/urlfetch"
 )
@@ -210,7 +210,7 @@ vet                   Run the Go vet application
 <br/>
 
 ## Examples & Tests
-All unit tests and [examples](examples) run via [GitHub Actions](https://github.com/mrz1836/postmark/actions) and
+All unit tests and [examples](examples) run via [GitHub Actions](https://github.com/habibrosyad/postmark/actions) and
 uses [Go version 1.18.x](https://golang.org/doc/go1.18). View the [configuration file](.github/workflows/run-tests.yml).
 
 Run all tests (including integration tests)
